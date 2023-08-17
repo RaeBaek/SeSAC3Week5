@@ -26,12 +26,12 @@
 		1430959F2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1430959D2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib */; };
 		143095A12A8C777500D00421 /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143095A02A8C777500D00421 /* PosterViewController.swift */; };
 		148F975B2A8DA32C00E1C151 /* Extension+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */; };
-		148F97602A8DAB8700E1C151 /* LottoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F975F2A8DAB8700E1C151 /* LottoManager.swift */; };
 		148F97632A8DB24800E1C151 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97622A8DB24800E1C151 /* ReusableProtocol.swift */; };
 		148F97662A8DC98700E1C151 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97652A8DC98700E1C151 /* WeatherManager.swift */; };
 		148F97692A8DC9C800E1C151 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 148F97682A8DC9C800E1C151 /* SwiftyJSON */; };
 		148F976D2A8DE30700E1C151 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F976C2A8DE30700E1C151 /* Weather.swift */; };
 		148F97702A8DEB6200E1C151 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F976F2A8DEB6200E1C151 /* Recommendation.swift */; };
+		148F97722A8E63D900E1C151 /* LottoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97712A8E63D900E1C151 /* LottoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,11 +54,11 @@
 		1430959D2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderPosterCollectionReusableView.xib; sourceTree = "<group>"; };
 		143095A02A8C777500D00421 /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
 		148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Alert.swift"; sourceTree = "<group>"; };
-		148F975F2A8DAB8700E1C151 /* LottoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoManager.swift; sourceTree = "<group>"; };
 		148F97622A8DB24800E1C151 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		148F97652A8DC98700E1C151 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		148F976C2A8DE30700E1C151 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		148F976F2A8DEB6200E1C151 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		148F97712A8E63D900E1C151 /* LottoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,10 +155,9 @@
 		148F975E2A8DAB6E00E1C151 /* Lotto */ = {
 			isa = PBXGroup;
 			children = (
-				148F975F2A8DAB8700E1C151 /* LottoManager.swift */,
+				148F97712A8E63D900E1C151 /* LottoManager.swift */,
 			);
 			name = Lotto;
-			path = "ㅣㅐㅅ새";
 			sourceTree = "<group>";
 		};
 		148F97612A8DAEAB00E1C151 /* Protocol */ = {
@@ -272,7 +271,6 @@
 			files = (
 				041AE3D12A899B28007724AE /* ViewController.swift in Sources */,
 				041AE3CD2A899B28007724AE /* AppDelegate.swift in Sources */,
-				148F97602A8DAB8700E1C151 /* LottoManager.swift in Sources */,
 				148F97632A8DB24800E1C151 /* ReusableProtocol.swift in Sources */,
 				148F976D2A8DE30700E1C151 /* Weather.swift in Sources */,
 				1430959E2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift in Sources */,
@@ -281,6 +279,7 @@
 				143095942A8C4B1B00D00421 /* CodableViewController.swift in Sources */,
 				143095A12A8C777500D00421 /* PosterViewController.swift in Sources */,
 				041AE3E42A899D2C007724AE /* APIKey.swift in Sources */,
+				148F97722A8E63D900E1C151 /* LottoManager.swift in Sources */,
 				148F97662A8DC98700E1C151 /* WeatherManager.swift in Sources */,
 				148F97702A8DEB6200E1C151 /* Recommendation.swift in Sources */,
 				143095982A8C74FF00D00421 /* PosterCollectionViewCell.swift in Sources */,
