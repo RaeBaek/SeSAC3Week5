@@ -25,6 +25,9 @@
 		1430959E2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430959C2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift */; };
 		1430959F2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1430959D2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib */; };
 		143095A12A8C777500D00421 /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143095A02A8C777500D00421 /* PosterViewController.swift */; };
+		1455E41C2A8EF0C9004538EB /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */; };
+		1455E41D2A8EF0C9004538EB /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */; };
+		1455E41E2A8EF0C9004538EB /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */; };
 		148F975B2A8DA32C00E1C151 /* Extension+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */; };
 		148F97632A8DB24800E1C151 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97622A8DB24800E1C151 /* ReusableProtocol.swift */; };
 		148F97662A8DC98700E1C151 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97652A8DC98700E1C151 /* WeatherManager.swift */; };
@@ -53,6 +56,9 @@
 		1430959C2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPosterCollectionReusableView.swift; sourceTree = "<group>"; };
 		1430959D2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderPosterCollectionReusableView.xib; sourceTree = "<group>"; };
 		143095A02A8C777500D00421 /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
+		1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansBold.otf; sourceTree = "<group>"; };
+		1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
+		1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansMedium.otf; sourceTree = "<group>"; };
 		148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Alert.swift"; sourceTree = "<group>"; };
 		148F97622A8DB24800E1C151 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		148F97652A8DC98700E1C151 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
@@ -97,6 +103,7 @@
 		041AE3CB2A899B28007724AE /* SeSAC3Week5 */ = {
 			isa = PBXGroup;
 			children = (
+				1455E4152A8EEFFF004538EB /* Font */,
 				148F976E2A8DEB5300E1C151 /* TMDB */,
 				148F97642A8DC92700E1C151 /* Weather */,
 				148F975E2A8DAB6E00E1C151 /* Lotto */,
@@ -118,8 +125,6 @@
 			children = (
 				041AE3E32A899D2C007724AE /* APIKey.swift */,
 				041AE3E62A899D84007724AE /* Endpoint.swift */,
-				041AE3E82A89A265007724AE /* GCDBasicViewController.swift */,
-				143095932A8C4B1B00D00421 /* CodableViewController.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -135,6 +140,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1455E4152A8EEFFF004538EB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */,
+				1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */,
+				1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		148F975C2A8DA33A00E1C151 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				041AE3D02A899B28007724AE /* ViewController.swift */,
+				041AE3E82A89A265007724AE /* GCDBasicViewController.swift */,
 				143095A02A8C777500D00421 /* PosterViewController.swift */,
+				143095932A8C4B1B00D00421 /* CodableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,8 +273,11 @@
 				041AE3E22A899D1C007724AE /* .gitignore in Resources */,
 				1430959F2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib in Resources */,
 				041AE3D92A899B29007724AE /* LaunchScreen.storyboard in Resources */,
+				1455E41D2A8EF0C9004538EB /* GmarketSansLight.otf in Resources */,
 				143095992A8C74FF00D00421 /* PosterCollectionViewCell.xib in Resources */,
 				041AE3D62A899B29007724AE /* Assets.xcassets in Resources */,
+				1455E41E2A8EF0C9004538EB /* GmarketSansMedium.otf in Resources */,
+				1455E41C2A8EF0C9004538EB /* GmarketSansBold.otf in Resources */,
 				041AE3D42A899B28007724AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raehoon.SeSAC3Week5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raehoon.SeSAC3Week5321;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -475,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raehoon.SeSAC3Week5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raehoon.SeSAC3Week5321;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
