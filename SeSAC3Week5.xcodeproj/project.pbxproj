@@ -28,6 +28,7 @@
 		1455E41C2A8EF0C9004538EB /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */; };
 		1455E41D2A8EF0C9004538EB /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */; };
 		1455E41E2A8EF0C9004538EB /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */; };
+		14881B592A92F50C004B5C4C /* SeSACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14881B582A92F50C004B5C4C /* SeSACButton.swift */; };
 		148F975B2A8DA32C00E1C151 /* Extension+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */; };
 		148F97632A8DB24800E1C151 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97622A8DB24800E1C151 /* ReusableProtocol.swift */; };
 		148F97662A8DC98700E1C151 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F97652A8DC98700E1C151 /* WeatherManager.swift */; };
@@ -59,6 +60,7 @@
 		1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansBold.otf; sourceTree = "<group>"; };
 		1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
 		1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansMedium.otf; sourceTree = "<group>"; };
+		14881B582A92F50C004B5C4C /* SeSACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACButton.swift; sourceTree = "<group>"; };
 		148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Alert.swift"; sourceTree = "<group>"; };
 		148F97622A8DB24800E1C151 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		148F97652A8DC98700E1C151 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				148F975A2A8DA32C00E1C151 /* Extension+Alert.swift */,
+				14881B582A92F50C004B5C4C /* SeSACButton.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				041AE3E92A89A265007724AE /* GCDBasicViewController.swift in Sources */,
 				148F975B2A8DA32C00E1C151 /* Extension+Alert.swift in Sources */,
 				143095942A8C4B1B00D00421 /* CodableViewController.swift in Sources */,
+				14881B592A92F50C004B5C4C /* SeSACButton.swift in Sources */,
 				143095A12A8C777500D00421 /* PosterViewController.swift in Sources */,
 				041AE3E42A899D2C007724AE /* APIKey.swift in Sources */,
 				148F97722A8E63D900E1C151 /* LottoManager.swift in Sources */,

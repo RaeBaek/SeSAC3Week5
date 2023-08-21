@@ -66,19 +66,25 @@ class PosterViewController: UIViewController {
     
     @IBAction func sendNotification(_ sender: UIButton) {
         
-        // 포그라운드에서 알림이 안뜨는게 디폴트!!
+        // 포그라운드에서 알림이 안뜨는게 디폴트 정책!
         
         //1. 컨텐츠
         //2. 언제?
         // 알림 보내기
         let content = UNMutableNotificationContent()
-        content.title = "다마고치에게 물을 주세요."
-        content.body = "5초지났다잉"
+        content.title = "알림 알림 알림"
+        content.body = ["알림1~", "알림2~", "알림3~!"].randomElement()!
         content.badge = 100
         
         // 반복을 true로 설정하면 알림의 최소 시간은 60초다!
         // 반대로 반복을 false로 설정하면 최소 시간은 상관없다.
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        var component = DateComponents()
+        component.minute = 5
+        component.hour = 10
+    
+        let trigger = UNCalendarNotificationTrigger(dateMatching: component, repeats: false)
         
         let request = UNNotificationRequest(identifier: "\(Date())", content: content, trigger: trigger)
         
