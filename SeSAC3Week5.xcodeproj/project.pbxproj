@@ -25,6 +25,9 @@
 		1430959E2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430959C2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift */; };
 		1430959F2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1430959D2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib */; };
 		143095A12A8C777500D00421 /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143095A02A8C777500D00421 /* PosterViewController.swift */; };
+		14312BC32AB1C8CA0062D7FE /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BC22AB1C8CA0062D7FE /* Observer.swift */; };
+		14312BC52AB1C9ED0062D7FE /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BC42AB1C9ED0062D7FE /* LottoViewModel.swift */; };
+		14312BC72AB1CCD20062D7FE /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BC62AB1CCD20062D7FE /* LottoViewController.swift */; };
 		1455E41C2A8EF0C9004538EB /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */; };
 		1455E41D2A8EF0C9004538EB /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */; };
 		1455E41E2A8EF0C9004538EB /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */; };
@@ -57,6 +60,9 @@
 		1430959C2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPosterCollectionReusableView.swift; sourceTree = "<group>"; };
 		1430959D2A8C754700D00421 /* HeaderPosterCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderPosterCollectionReusableView.xib; sourceTree = "<group>"; };
 		143095A02A8C777500D00421 /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
+		14312BC22AB1C8CA0062D7FE /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		14312BC42AB1C9ED0062D7FE /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		14312BC62AB1CCD20062D7FE /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		1455E4192A8EF0C9004538EB /* GmarketSansBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansBold.otf; sourceTree = "<group>"; };
 		1455E41A2A8EF0C9004538EB /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
 		1455E41B2A8EF0C9004538EB /* GmarketSansMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansMedium.otf; sourceTree = "<group>"; };
@@ -176,6 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				148F97712A8E63D900E1C151 /* LottoManager.swift */,
+				14312BC22AB1C8CA0062D7FE /* Observer.swift */,
+				14312BC42AB1C9ED0062D7FE /* LottoViewModel.swift */,
+				14312BC62AB1CCD20062D7FE /* LottoViewController.swift */,
 			);
 			name = Lotto;
 			sourceTree = "<group>";
@@ -293,9 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				041AE3D12A899B28007724AE /* ViewController.swift in Sources */,
+				14312BC32AB1C8CA0062D7FE /* Observer.swift in Sources */,
 				041AE3CD2A899B28007724AE /* AppDelegate.swift in Sources */,
 				148F97632A8DB24800E1C151 /* ReusableProtocol.swift in Sources */,
 				148F976D2A8DE30700E1C151 /* Weather.swift in Sources */,
+				14312BC72AB1CCD20062D7FE /* LottoViewController.swift in Sources */,
 				1430959E2A8C754700D00421 /* HeaderPosterCollectionReusableView.swift in Sources */,
 				041AE3E92A89A265007724AE /* GCDBasicViewController.swift in Sources */,
 				148F975B2A8DA32C00E1C151 /* Extension+Alert.swift in Sources */,
@@ -309,6 +320,7 @@
 				143095982A8C74FF00D00421 /* PosterCollectionViewCell.swift in Sources */,
 				041AE3CF2A899B28007724AE /* SceneDelegate.swift in Sources */,
 				041AE3E72A899D84007724AE /* Endpoint.swift in Sources */,
+				14312BC52AB1C9ED0062D7FE /* LottoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
